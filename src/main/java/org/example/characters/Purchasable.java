@@ -1,4 +1,8 @@
 package org.example.characters;
 
-public class Purchasable {
+public interface Purchasable {
+    String getName();
+    int getPrice();
+    void purchase(Hero hero);  // effekten när hjälten köper
 }
+
